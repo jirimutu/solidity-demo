@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "data",
+						"type": "uint256[]"
+					}
+				],
+				"name": "getSum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Demo01.sol": "Demo01"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Demo01.sol": {
+			"keccak256": "0xf7314d791a68d2f449accdb4a4d88e6a808c1701f42738018fe0c9e42a22995e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://679ab9573b2a78c3f388322e21041e2e0e48bd4f432a084ed8fbed5b928d37c1",
+				"dweb:/ipfs/QmNohuYHjpt6egJJDgMfVWYyQyMUFzDeXKmYTHyPeNpDQF"
+			]
+		}
+	},
+	"version": 1
+}
